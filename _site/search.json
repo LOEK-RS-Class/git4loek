@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "index.html#file-file2-file_new",
+    "href": "index.html#file-file2-file_new",
+    "title": "git and GitHub for ILOEK",
+    "section": "File, File2, File_new",
+    "text": "File, File2, File_new\n\nmessy files"
+  },
+  {
+    "objectID": "index.html#author-guidelines",
+    "href": "index.html#author-guidelines",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "Author Guidelines",
+    "text": "Author Guidelines\n\nMethods Article\nPresentation of new analytical techniques, new software, etc., or critical evaluation of methods in macroecology. Typically, these papers do not exceed ten printed pages.\nOpen Research\nGlobal Ecology and Biogeography supports open research, therefore expects that the data supporting the results in the paper will be archived in an appropriate public repository, […] Whenever possible the scripts and other artefacts used to generate the analyses presented in the paper should also be publicly archived in a repository"
+  },
+  {
+    "objectID": "index.html#the-solution",
+    "href": "index.html#the-solution",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "The solution",
+    "text": "The solution\n\n\n\nVersion Control\n\n\nCode Availability\nThe code to reproduce the results presented in this study can be accessed at: https://github.com/LOEK-RS/global_applicability. The methods for the forward variable selection, area of applicability and dissimilarity index calibration are implemented in the R package ‘CAST’: https://cran.r-project.org/web/packages/CAST/index.html. (Ludwig et al. 2023)\nProviding Software\nAll newly produced R functions and modelling steps are fully documented in https://github.com/environmentalinformatics-marburg/CAST. (Meyer et al. 2018)"
+  },
+  {
+    "objectID": "index.html#git",
+    "href": "index.html#git",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "git",
+    "text": "git\n\nVersion Control System\nDeveloped by Linus Torvalds to work on the Linux Kernel with multiple people\nMainly for Code, but useful for many other things"
+  },
+  {
+    "objectID": "index.html#why-version-control",
+    "href": "index.html#why-version-control",
+    "title": "git and GitHub for ILOEK",
+    "section": "Why Version Control?",
+    "text": "Why Version Control?\n\n“forces” some good habits\n\nstructured thinking\nstructured working in small chunks\ngoal-oriented\n\n(supports Open-Source development)"
+  },
+  {
+    "objectID": "index.html#get-git",
+    "href": "index.html#get-git",
+    "title": "git and GitHub for ILOEK",
+    "section": "Get git",
+    "text": "Get git\n\nhttps://git-scm.com/download/\npreinstalled on most GNU/Linux distributions\nCommand Line Tool\nGUI Versions available\nRStudio Integration\n\nConfigure git\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your@email.com\""
+  },
+  {
+    "objectID": "index.html#the-concept",
+    "href": "index.html#the-concept",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "The concept",
+    "text": "The concept\n\nhttps://miro.medium.com/max/700/19qX9F9MGsWKfcmgTOR9BPw.png*"
+  },
+  {
+    "objectID": "index.html#integration-in-r-studio",
+    "href": "index.html#integration-in-r-studio",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "Integration in R Studio",
+    "text": "Integration in R Studio"
+  },
+  {
+    "objectID": "index.html#author-guidelines-1",
+    "href": "index.html#author-guidelines-1",
+    "title": "git and GitHub for ILOEK",
+    "section": "Author Guidelines",
+    "text": "Author Guidelines\nGlobal Ecology and Biogeography supports open research, therefore expects that the data supporting the results in the paper will be archived in an appropriate public repository, […] Whenever possible the scripts and other artefacts used to generate the analyses presented in the paper should also be publicly archived in a repository"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "References",
+    "text": "References\n\n\nLudwig, Marvin, Alvaro Moreno-Martinez, Norbert Hölzel, Edzer Pebesma, and Hanna Meyer. 2023. “Assessing and Improving the Transferability of Current Global Spatial Prediction Models.” Global Ecology and Biogeography 32 (3): 356–68. https://doi.org/10.1111/geb.13635.\n\n\nMeyer, Hanna, Christoph Reudenbach, Tomislav Hengl, Marwan Katurji, and Thomas Nauss. 2018. “Improving Performance of Spatio-Temporal Machine Learning Models Using Forward Feature Selection and Target-Oriented Validation.” Environmental Modelling & Software 101 (March): 1–9. https://doi.org/10.1016/j.envsoft.2017.12.001.\n\n\n\n\nIntroduction to git"
+  },
+  {
+    "objectID": "index.html#configure-git",
+    "href": "index.html#configure-git",
+    "title": "git and GitHub for ILOEK",
+    "section": "Configure git",
+    "text": "Configure git\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your@email.com\""
+  },
+  {
+    "objectID": "index.html#git-workflow",
+    "href": "index.html#git-workflow",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "git Workflow",
+    "text": "git Workflow\n\nCommand Line Tool\nGUI Versions available\nRStudio Integration\nApplication with a learning curve\nSimple but easy to mess something up\nCore unit: A repository\n\ngit init    # to start\ngit status # to get infos\n\ngit add    # to add files to the tracking system\n\ngit commit # to define changed files as the new standard"
+  },
+  {
+    "objectID": "index.html#github",
+    "href": "index.html#github",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "GitHub",
+    "text": "GitHub\n\n\nCloud Storage for git repositories\nplatform for code sharing, documentation, (data)…\ncollaboration and (scientific) communication\n\nGitHub Pages!!\n\nWiki\nIssue - Tracker\nAutomation\n…"
+  },
+  {
+    "objectID": "index.html#the-concept-1",
+    "href": "index.html#the-concept-1",
+    "title": "git and GitHub for ILOEK",
+    "section": "The concept",
+    "text": "The concept\n\n\nCommands\ngit remote    # to get infos about remote\n\ngit push      # to send commits to remote\n\ngit pull      # to download commits from remote\ngit clone     # to download a repository\n\n\n\n\nhttps://miro.medium.com/max/700/19qX9F9MGsWKfcmgTOR9BPw.png*"
+  },
+  {
+    "objectID": "index.html#github-1",
+    "href": "index.html#github-1",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "GitHub",
+    "text": "GitHub\n\n\nCommands\ngit remote    # to get infos about remote\n\ngit push      # to send commits to remote\n\ngit pull      # to download commits from remote\ngit clone     # to download a repository\n\n\n\n\nhttps://miro.medium.com/max/700/19qX9F9MGsWKfcmgTOR9BPw.png*"
+  },
+  {
+    "objectID": "index.html#get-started",
+    "href": "index.html#get-started",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "Get started",
+    "text": "Get started\n\n\n\nhttps://git-scm.com/download/\npreinstalled on most GNU/Linux distributions\n\nGithub\n\ncreate GitHub Account\nssh?\n\nConfigure git\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your@email.com\""
+  },
+  {
+    "objectID": "index.html#real-world-examples",
+    "href": "index.html#real-world-examples",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "Real World Examples",
+    "text": "Real World Examples\nCAST\nhttps://github.com/HannaMeyer/CAST\nPackage Page created with pkgdown\nPackage Page created with pkgdown: https://hannameyer.github.io/CAST\nCourse Resources\nMaterials created with quarto, bookdown and GitHub Pages"
+  },
+  {
+    "objectID": "index.html#git-init",
+    "href": "index.html#git-init",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "Git Init",
+    "text": "Git Init\n\n\nGet git\n\nhttps://git-scm.com/download/\npreinstalled on most GNU/Linux distributions\n\nGithub\n\ncreate GitHub Account\nssh?\n\nConfigure git\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your@email.com\"\n\n\nConfigure R Studio Integration"
+  },
+  {
+    "objectID": "index.html#git-setup",
+    "href": "index.html#git-setup",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "Git Setup",
+    "text": "Git Setup\n\n\nGet git\n\nhttps://git-scm.com/download/\npreinstalled on most GNU/Linux distributions\n\nGitHub\n\ncreate GitHub Account\nssh?\n\nConfigure git\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your@email.com\"\n\n\nConfigure R Studio Integration"
+  },
+  {
+    "objectID": "index.html#publishing",
+    "href": "index.html#publishing",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "Publishing",
+    "text": "Publishing\n\nMethods Article\nPresentation of new analytical techniques, new software, etc., or critical evaluation of methods in macroecology. Typically, these papers do not exceed ten printed pages.\nOpen Research\nGlobal Ecology and Biogeography supports open research, therefore expects that the data supporting the results in the paper will be archived in an appropriate public repository, […] Whenever possible the scripts and other artefacts used to generate the analyses presented in the paper should also be publicly archived in a repository"
+  },
+  {
+    "objectID": "index.html#version-control-and-code-sharing",
+    "href": "index.html#version-control-and-code-sharing",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "Version Control and Code Sharing",
+    "text": "Version Control and Code Sharing\n\n\n\nVersion Control\n\n\nCode Availability\nThe code to reproduce the results presented in this study can be accessed at: https://github.com/LOEK-RS/global_applicability. The methods for the forward variable selection, area of applicability and dissimilarity index calibration are implemented in the R package ‘CAST’: https://cran.r-project.org/web/packages/CAST/index.html. (Ludwig et al. 2023)\nProviding Software\nAll newly produced R functions and modelling steps are fully documented in https://github.com/environmentalinformatics-marburg/CAST. (Meyer et al. 2018)"
+  },
+  {
+    "objectID": "index.html#concept-and-workflow",
+    "href": "index.html#concept-and-workflow",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "Concept and Workflow",
+    "text": "Concept and Workflow\n\n\n\n\n\nhttps://miro.medium.com/max/700/19qX9F9MGsWKfcmgTOR9BPw.png*\n\n\n\n\nCommand Line Tool\nGUI Versions available\nRStudio Integration\nApplication with a learning curve\nSimple but easy to mess something up\nCore unit: A repository\n\ngit init    # to start\ngit status # to get infos\n\ngit add    # to add files to the tracking system\n\ngit commit # to define changed files as the new standard"
+  }
+]
