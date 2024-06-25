@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: docs
 website:
+  search: false
   navbar:
     left:
       - href: index.qmd
@@ -17,8 +18,10 @@ website:
     right: 
       - icon: github
         menu:
-          - text: Source Code
-            href:  https://code.com
+          - text: View on GitHub
+            href:  https://github.com/LOEK-RS/git4loek
+          - text: Other Courses
+            href: https://teaching.mlspatial.org
 bibliography: "/home/marvin/literature/zotero/references.bib"
 format:
   html:
