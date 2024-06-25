@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index</title>
+<title>git_examples</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -71,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -84,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">What? and Why?</span></a>
   </li>  
   <li class="nav-item">
@@ -96,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">RStudio Integration</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./git_examples.html"> 
+    <a class="nav-link active" href="./git_examples.html" aria-current="page"> 
 <span class="menu-text">Examples</span></a>
   </li>  
   <li class="nav-item">
@@ -129,19 +163,66 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#repository-examples-on-github" id="toc-repository-examples-on-github" class="nav-link active" data-scroll-target="#repository-examples-on-github">Repository examples on GitHub</a>
+  <ul class="collapse">
+  <li><a href="#r-package-cast" id="toc-r-package-cast" class="nav-link" data-scroll-target="#r-package-cast">R package: CAST</a></li>
+  <li><a href="#publishing-workflows-and-code" id="toc-publishing-workflows-and-code" class="nav-link" data-scroll-target="#publishing-workflows-and-code">Publishing workflows and code</a></li>
+  <li><a href="#teaching-materials" id="toc-teaching-materials" class="nav-link" data-scroll-target="#teaching-materials">Teaching Materials</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
 
+<section id="repository-examples-on-github" class="level1 page-columns page-full">
+<h1>Repository examples on GitHub</h1>
+<section id="r-package-cast" class="level2">
+<h2 class="anchored" data-anchor-id="r-package-cast">R package: CAST</h2>
+<p><a href="https://github.com/HannaMeyer/CAST">https://github.com/HannaMeyer/CAST</a></p>
+<p>In R, you can directly install the package from GitHub using the following commands:</p>
 <div class="cell">
-<iframe src="git_intro_presentation.html" width="672" height="400px" data-external="1">
-</iframe>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="at">repo =</span> <span class="st">"https://github.com/HannaMeyer/CAST"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="at">repo =</span> <span class="st">"https://github.com/HannaMeyer/CAST"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>The <code>install.packages</code> function by default downloads and installs packages from <a href="https://cran.r-project.org/">CRAN</a> which in itself is a repository for R packages and their version management.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"CAST"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Package Page created with <code>pkgdown</code>: <a href="https://hannameyer.github.io/CAST">https://hannameyer.github.io/CAST</a></p>
+</section>
+<section id="publishing-workflows-and-code" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-workflows-and-code">Publishing workflows and code</h2>
+<p><a href="https://github.com/LOEK-RS/global_applicability">https://github.com/LOEK-RS/global_applicability</a></p>
+</section>
+<section id="teaching-materials" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="teaching-materials">Teaching Materials</h2>
+<p>The materials for my Introduction to R Course are stored in a repository on GitHub:</p>
+<div class="cell page-columns page-full">
+
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://teaching.mlspatial.org/analysis_of_ecological_data/assets/cover_image.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div></div></div>
+<p><a href="https://github.com/mlspatial/analysis_of_ecological_data">https://github.com/mlspatial/analysis_of_ecological_data</a></p>
+<p>Through GitHub pages the repository is automatically rendered and published as a website: <a href="https://mlspatial.github.io/analysis_of_ecological_data">https://mlspatial.github.io/analysis_of_ecological_data</a></p>
+<p>You can also find the files of this git course and homepage on GitHub:</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

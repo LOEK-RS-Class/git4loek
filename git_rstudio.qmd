@@ -1,0 +1,12 @@
+# RStudio Integration
+
+You can use git and GitHub within RStudio. Via the interface you can stage files, create commits or push and pull from and to remote repositories.
+
+For more info, check out the official [RStudio User Guide on Version Controll](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html)
+
+
+![](screenshots/rstudio1.png)
+
+### Configure R Studio Integration
+
+![](screenshots/rstudio2.png)

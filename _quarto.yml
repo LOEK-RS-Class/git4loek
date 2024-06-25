@@ -2,18 +2,30 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "git4loek"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: What? and Why?
+      - href: git_basics.qmd
+        text: git & GitHub
+      - href: git_rstudio.qmd
+        text: RStudio Integration
+      - href: git_examples.qmd
+        text: Examples
+      - href: readers.qmd
+        text: Further Reading
+    right: 
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://code.com
 bibliography: "/home/marvin/literature/zotero/references.bib"
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+
 
 
 

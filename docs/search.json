@@ -1,79 +1,128 @@
 [
   {
-    "objectID": "index.html#publishing",
-    "href": "index.html#publishing",
+    "objectID": "git_rstudio.html",
+    "href": "git_rstudio.html",
+    "title": "RStudio Integration",
+    "section": "",
+    "text": "RStudio Integration\nYou can use git and GitHub within RStudio. Via the interface you can stage files, create commits or push and pull from and to remote repositories.\nFor more info, check out the official RStudio User Guide on Version Controll\n\n\nConfigure R Studio Integration"
+  },
+  {
+    "objectID": "git_examples.html",
+    "href": "git_examples.html",
+    "title": "Repository examples on GitHub",
+    "section": "",
+    "text": "https://github.com/HannaMeyer/CAST\nIn R, you can directly install the package from GitHub using the following commands:\n\ndevtools::install_github(repo = \"https://github.com/HannaMeyer/CAST\")\n\nremotes::install_github(repo = \"https://github.com/HannaMeyer/CAST\")\n\nThe install.packages function by default downloads and installs packages from CRAN which in itself is a repository for R packages and their version management.\n\ninstall.packages(\"CAST\")\n\nPackage Page created with pkgdown: https://hannameyer.github.io/CAST\n\n\n\nhttps://github.com/LOEK-RS/global_applicability\n\n\n\nThe materials for my Introduction to R Course are stored in a repository on GitHub:\n\n\n\n\n\n\n\n\n\nhttps://github.com/mlspatial/analysis_of_ecological_data\nThrough GitHub pages the repository is automatically rendered and published as a website: https://mlspatial.github.io/analysis_of_ecological_data\nYou can also find the files of this git course and homepage on GitHub:"
+  },
+  {
+    "objectID": "git_examples.html#r-package-cast",
+    "href": "git_examples.html#r-package-cast",
+    "title": "Repository examples on GitHub",
+    "section": "",
+    "text": "https://github.com/HannaMeyer/CAST\nIn R, you can directly install the package from GitHub using the following commands:\n\ndevtools::install_github(repo = \"https://github.com/HannaMeyer/CAST\")\n\nremotes::install_github(repo = \"https://github.com/HannaMeyer/CAST\")\n\nThe install.packages function by default downloads and installs packages from CRAN which in itself is a repository for R packages and their version management.\n\ninstall.packages(\"CAST\")\n\nPackage Page created with pkgdown: https://hannameyer.github.io/CAST"
+  },
+  {
+    "objectID": "git_examples.html#publishing-workflows-and-code",
+    "href": "git_examples.html#publishing-workflows-and-code",
+    "title": "Repository examples on GitHub",
+    "section": "",
+    "text": "https://github.com/LOEK-RS/global_applicability"
+  },
+  {
+    "objectID": "git_examples.html#teaching-materials",
+    "href": "git_examples.html#teaching-materials",
+    "title": "Repository examples on GitHub",
+    "section": "",
+    "text": "The materials for my Introduction to R Course are stored in a repository on GitHub:\n\n\n\n\n\n\n\n\n\nhttps://github.com/mlspatial/analysis_of_ecological_data\nThrough GitHub pages the repository is automatically rendered and published as a website: https://mlspatial.github.io/analysis_of_ecological_data\nYou can also find the files of this git course and homepage on GitHub:"
+  },
+  {
+    "objectID": "git_intro_presentation.html#the-problems-we-are-trying-to-solve",
+    "href": "git_intro_presentation.html#the-problems-we-are-trying-to-solve",
+    "title": "Introduction to git and GitHub for LOEK",
+    "section": "The problems we are trying to solve",
+    "text": "The problems we are trying to solve\n\n\n\nmessy files"
+  },
+  {
+    "objectID": "git_intro_presentation.html#publishing",
+    "href": "git_intro_presentation.html#publishing",
     "title": "Introduction to git and GitHub for LOEK",
     "section": "Publishing",
     "text": "Publishing\n\nMethods Article\nPresentation of new analytical techniques, new software, etc., or critical evaluation of methods in macroecology. Typically, these papers do not exceed ten printed pages.\nOpen Research\nGlobal Ecology and Biogeography supports open research, therefore expects that the data supporting the results in the paper will be archived in an appropriate public repository, […] Whenever possible the scripts and other artefacts used to generate the analyses presented in the paper should also be publicly archived in a repository"
   },
   {
-    "objectID": "index.html#version-control-and-code-sharing",
-    "href": "index.html#version-control-and-code-sharing",
+    "objectID": "git_intro_presentation.html#publishing-1",
+    "href": "git_intro_presentation.html#publishing-1",
     "title": "Introduction to git and GitHub for LOEK",
-    "section": "Version Control and Code Sharing",
-    "text": "Version Control and Code Sharing\n\n\n\nVersion Control\n\n\nCode Availability\nThe code to reproduce the results presented in this study can be accessed at: https://github.com/LOEK-RS/global_applicability. The methods for the forward variable selection, area of applicability and dissimilarity index calibration are implemented in the R package ‘CAST’: https://cran.r-project.org/web/packages/CAST/index.html. (Ludwig et al. 2023)\nProviding Software\nAll newly produced R functions and modelling steps are fully documented in https://github.com/environmentalinformatics-marburg/CAST. (Meyer et al. 2018)"
+    "section": "Publishing",
+    "text": "Publishing\nCode Availability\nThe code to reproduce the results presented in this study can be accessed at: https://github.com/LOEK-RS/global_applicability. The methods for the forward variable selection, area of applicability and dissimilarity index calibration are implemented in the R package ‘CAST’: https://cran.r-project.org/web/packages/CAST/index.html. (Ludwig et al. 2023)\nProviding Software\nAll newly produced R functions and modelling steps are fully documented in https://github.com/HannaMeyer/CAST. (Meyer et al. 2018)"
   },
   {
-    "objectID": "index.html#git",
-    "href": "index.html#git",
+    "objectID": "git_intro_presentation.html#what-is-git",
+    "href": "git_intro_presentation.html#what-is-git",
     "title": "Introduction to git and GitHub for LOEK",
-    "section": "git",
-    "text": "git\n\nVersion Control System\nDeveloped by Linus Torvalds to work on the Linux Kernel with multiple people\nMainly for Code, but useful for many other things"
+    "section": "What is git?",
+    "text": "What is git?\n\n\nVersion Control System\nDeveloped by Linus Torvalds to work on the Linux Kernel with multiple people\nMainly for Code, but useful for many other things"
   },
   {
-    "objectID": "index.html#concept-and-workflow",
-    "href": "index.html#concept-and-workflow",
+    "objectID": "git_intro_presentation.html#section",
+    "href": "git_intro_presentation.html#section",
     "title": "Introduction to git and GitHub for LOEK",
-    "section": "Concept and Workflow",
-    "text": "Concept and Workflow\n\n\n\n\n\nhttps://miro.medium.com/max/700/19qX9F9MGsWKfcmgTOR9BPw.png*\n\n\n\n\nCommand Line Tool\nGUI Versions available\nRStudio Integration\nApplication with a learning curve\nSimple but easy to mess something up\nCore unit: A repository\n\ngit init    # to start\ngit status # to get infos\n\ngit add    # to add files to the tracking system\n\ngit commit # to define changed files as the new standard"
+    "section": "",
+    "text": "messy files\n\n\n\n\n\nVersion Control"
   },
   {
-    "objectID": "index.html#integration-in-r-studio",
-    "href": "index.html#integration-in-r-studio",
-    "title": "Introduction to git and GitHub for LOEK",
-    "section": "Integration in R Studio",
-    "text": "Integration in R Studio"
-  },
-  {
-    "objectID": "index.html#github",
-    "href": "index.html#github",
-    "title": "Introduction to git and GitHub for LOEK",
-    "section": "GitHub",
-    "text": "GitHub\n\n\nCloud Storage for git repositories\nplatform for code sharing, documentation, (data)…\ncollaboration and (scientific) communication\n\nGitHub Pages!!\n\nWiki\nIssue - Tracker\nAutomation\n…"
-  },
-  {
-    "objectID": "index.html#github-1",
-    "href": "index.html#github-1",
-    "title": "Introduction to git and GitHub for LOEK",
-    "section": "GitHub",
-    "text": "GitHub\n\n\nCommands\ngit remote    # to get infos about remote\n\ngit push      # to send commits to remote\n\ngit pull      # to download commits from remote\ngit clone     # to download a repository\n\n\n\n\nhttps://miro.medium.com/max/700/19qX9F9MGsWKfcmgTOR9BPw.png*"
-  },
-  {
-    "objectID": "index.html#real-world-examples",
-    "href": "index.html#real-world-examples",
-    "title": "Introduction to git and GitHub for LOEK",
-    "section": "Real World Examples",
-    "text": "Real World Examples\nCAST\nhttps://github.com/HannaMeyer/CAST\nPackage Page created with pkgdown\nPackage Page created with pkgdown: https://hannameyer.github.io/CAST\nCourse Resources\nMaterials created with quarto, bookdown and GitHub Pages"
-  },
-  {
-    "objectID": "index.html#git-setup",
-    "href": "index.html#git-setup",
-    "title": "Introduction to git and GitHub for LOEK",
-    "section": "Git Setup",
-    "text": "Git Setup\n\n\nGet git\n\nhttps://git-scm.com/download/\npreinstalled on most GNU/Linux distributions\n\nGitHub\n\ncreate GitHub Account\nssh?\n\nConfigure git\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your@email.com\"\n\n\nConfigure R Studio Integration"
-  },
-  {
-    "objectID": "index.html#references",
-    "href": "index.html#references",
+    "objectID": "git_intro_presentation.html#references",
+    "href": "git_intro_presentation.html#references",
     "title": "Introduction to git and GitHub for LOEK",
     "section": "References",
-    "text": "References\n\n\nLudwig, Marvin, Alvaro Moreno-Martinez, Norbert Hölzel, Edzer Pebesma, and Hanna Meyer. 2023. “Assessing and Improving the Transferability of Current Global Spatial Prediction Models.” Global Ecology and Biogeography 32 (3): 356–68. https://doi.org/10.1111/geb.13635.\n\n\nMeyer, Hanna, Christoph Reudenbach, Tomislav Hengl, Marwan Katurji, and Thomas Nauss. 2018. “Improving Performance of Spatio-Temporal Machine Learning Models Using Forward Feature Selection and Target-Oriented Validation.” Environmental Modelling & Software 101 (March): 1–9. https://doi.org/10.1016/j.envsoft.2017.12.001.\n\n\n\n\nIntroduction to git"
+    "text": "References\n\n\nLudwig, Marvin, Alvaro Moreno-Martinez, Norbert Hölzel, Edzer Pebesma, and Hanna Meyer. 2023. “Assessing and Improving the Transferability of Current Global Spatial Prediction Models.” Global Ecology and Biogeography 32 (3): 356–68. https://doi.org/10.1111/geb.13635.\n\n\nMeyer, Hanna, Christoph Reudenbach, Tomislav Hengl, Marwan Katurji, and Thomas Nauss. 2018. “Improving Performance of Spatio-Temporal Machine Learning Models Using Forward Feature Selection and Target-Oriented Validation.” Environmental Modelling & Software 101 (March): 1–9. https://doi.org/10.1016/j.envsoft.2017.12.001.\n\n\n\n\n\nIntroduction to git"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "git_basics.html",
+    "href": "git_basics.html",
+    "title": "",
     "section": "",
-    "text": "Build with quarto."
+    "text": "https://miro.medium.com/max/700/1*9qX9F9MGsWKfcmgTOR9BPw.png\n\n\n\nCommand Line Tool\nGUI Versions available, e.g. GitHub Desktop\nApplication with a learning curve\nCore unit: A repository\n\nThere is an excellent StackOverflow Thread on the difference between the workspace and the repository.\n\n\n```{shell}\ngit init   # to start\n\ngit status # to get infos\n\ngit add    # to add files to the tracking system\n\ngit commit # to define changed files as the new standard\n```"
+  },
+  {
+    "objectID": "git_basics.html#the-concept-of-git",
+    "href": "git_basics.html#the-concept-of-git",
+    "title": "",
+    "section": "",
+    "text": "https://miro.medium.com/max/700/1*9qX9F9MGsWKfcmgTOR9BPw.png\n\n\n\nCommand Line Tool\nGUI Versions available, e.g. GitHub Desktop\nApplication with a learning curve\nCore unit: A repository\n\nThere is an excellent StackOverflow Thread on the difference between the workspace and the repository.\n\n\n```{shell}\ngit init   # to start\n\ngit status # to get infos\n\ngit add    # to add files to the tracking system\n\ngit commit # to define changed files as the new standard\n```"
+  },
+  {
+    "objectID": "git_basics.html#github",
+    "href": "git_basics.html#github",
+    "title": "",
+    "section": "GitHub",
+    "text": "GitHub\n\n\n\n\n\n\n\n\n\n\nCloud Storage for git repositories\nplatform for code sharing, documentation, (data)…\ncollaboration and (scientific) communication\n\nBesides the plain storage in a cloud environment, GitHub offers a variatey of documentation and collaboration features:\n\nWiki\nIssue - Tracker\nAutomation\nGitHub Pages\n\n\nGitHub related commands on the command line\n\n\n\nhttps://miro.medium.com/max/700/1*9qX9F9MGsWKfcmgTOR9BPw.png\n\n\n```{sh}\ngit remote    # to get infos about remote\n\ngit push      # to send commits to remote\n\ngit pull      # to download commits from remote\n\ngit clone     # to download a repository\n```"
+  },
+  {
+    "objectID": "git_basics.html#setup",
+    "href": "git_basics.html#setup",
+    "title": "",
+    "section": "Setup",
+    "text": "Setup\n\n\n\n\n\n\n\n\n\n\nGet git\n\nhttps://git-scm.com/download/\npreinstalled on most GNU/Linux distributions\n\n```{sh}\n# minimum prerequisit configuration\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your@email.com\"\n```\n\n\nGitHub\n\ncreate a GitHub Account\nssh?"
+  },
+  {
+    "objectID": "readers.html",
+    "href": "readers.html",
+    "title": "",
+    "section": "",
+    "text": "https://docs.github.com/en\nNotable pages:\n\nGet Started\nAbout Git\nSSH Authentification"
+  },
+  {
+    "objectID": "readers.html#the-official-github-documentation-wiki",
+    "href": "readers.html#the-official-github-documentation-wiki",
+    "title": "",
+    "section": "",
+    "text": "https://docs.github.com/en\nNotable pages:\n\nGet Started\nAbout Git\nSSH Authentification"
+  },
+  {
+    "objectID": "readers.html#collaboration-with-git-and-github",
+    "href": "readers.html#collaboration-with-git-and-github",
+    "title": "",
+    "section": "Collaboration with git and GitHub",
+    "text": "Collaboration with git and GitHub\nThere are excellent workshop resources by the US National Center for Ecological Analysis and Synthesis on how to use git, GitHub and RStudio for collaborative research: https://pages.github.nceas.ucsb.edu/lter/github-workshop/index.html\nThey also go through the basic git concept, but also tackle more collaboration specific topics like merge conflicts and forks.\n\n\n\n\n\nUsing GitHub and RStudio as a collaborative tool needs some considerations and practice to prevent merge conflicts."
   }
 ]

@@ -1,0 +1,71 @@
+---
+title: "Introduction to git and GitHub for LOEK"
+title-slide-attributes:
+  data-background-image: "screenshots/gittrup.png"
+  data-background-size: contain
+  data-background-opacity: "0.5"
+format:
+  revealjs:
+    smaller: true
+    scrollable: true
+    footer: "Introduction to git"
+---
+
+
+## The problems we are trying to solve 
+
+![messy files](screenshots/files.png){height=223 fig-align="left"}
+
+## Publishing
+
+![](https://onlinelibrary.wiley.com/pb-assets/journal-banners/14668238-1501384690490.jpg){height=50}
+
+### Methods Article
+
+Presentation of **new analytical techniques, new software, etc.,** or critical evaluation of methods in macroecology. Typically, these papers do not exceed ten printed pages.
+
+
+### Open Research
+
+[Global Ecology and Biogeography](https://onlinelibrary.wiley.com/page/journal/14668238/homepage/forauthors.html) supports open research, therefore expects that the data supporting the results in the paper will be archived in an appropriate public repository, [...] **Whenever possible the scripts and other artefacts used to generate the analyses presented in the paper should also be publicly archived in a repository**
+
+## Publishing
+
+
+### Code Availability
+
+The code to reproduce the results presented in this study can be accessed at: https://github.com/LOEK-RS/global_applicability. The methods for the forward variable selection, area of applicability and dissimilarity index calibration are implemented in the R package ‘CAST’: https://cran.r-project.org/web/packages/CAST/index.html. [@Ludwig2023]
+
+### Providing Software
+
+All newly produced R functions and modelling steps are fully documented in [https://github.com/HannaMeyer/CAST](https://github.com/HannaMeyer/CAST). [@Meyer2018]
+
+
+
+## What is git?
+
+![](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png){height=100px}
+
+* Version Control System
+* Developed by Linus Torvalds to work on the Linux Kernel with multiple people
+* Mainly for Code, but useful for many other things
+
+
+
+
+
+##
+
+
+![messy files](screenshots/files.png){height=223 fig-align="left"}
+
+![Version Control](screenshots/files_git.png){height=100px fig-align="right"}
+
+
+
+## References
+
+::: {#refs}
+:::
+
+

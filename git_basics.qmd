@@ -1,0 +1,108 @@
+## The concept of git
+
+![https://miro.medium.com/max/700/1*9qX9F9MGsWKfcmgTOR9BPw.png](https://miro.medium.com/max/700/1*9qX9F9MGsWKfcmgTOR9BPw.png){width=700px}
+
+* Command Line Tool
+* GUI Versions available, e.g. [GitHub Desktop](https://desktop.github.com/)
+* Application with a learning curve
+* Core unit: **A repository**
+
+There is an excellent StackOverflow Thread on the [difference between the workspace and the repository](https://stackoverflow.com/questions/59441589/how-is-repository-different-from-workspace).
+    
+### git command line
+
+
+```{{shell}}
+git init   # to start
+
+git status # to get infos
+
+git add    # to add files to the tracking system
+
+git commit # to define changed files as the new standard
+```
+
+
+
+
+ 
+## GitHub
+
+
+```{r}
+#| fig-column: margin
+#| fig-width: 100
+#| echo: false
+knitr::include_graphics("https://logosmarken.com/wp-content/uploads/2020/12/GitHub-Logo.png")
+```
+
+* Cloud Storage for git repositories
+* platform for code sharing, documentation, (data)...
+* collaboration and (scientific) communication
+
+
+Besides the plain storage in a cloud environment, GitHub offers a variatey of documentation and collaboration features:
+
+* Wiki
+* Issue - Tracker
+* Automation
+* GitHub Pages
+
+
+### GitHub related commands on the command line
+
+![https://miro.medium.com/max/700/1*9qX9F9MGsWKfcmgTOR9BPw.png](https://miro.medium.com/max/700/1*9qX9F9MGsWKfcmgTOR9BPw.png){width=700px}
+
+
+
+```{{sh}}
+git remote    # to get infos about remote
+
+git push      # to send commits to remote
+
+git pull      # to download commits from remote
+
+git clone     # to download a repository
+```
+
+
+    
+
+
+
+
+
+
+## Setup
+
+
+```{r}
+#| fig-column: margin
+#| fig-width: 100
+#| echo: false
+knitr::include_graphics("https://git-scm.com/images/logo@2x.png")
+```
+
+
+### Get git
+
+* [https://git-scm.com/download/](https://git-scm.com/download/){target="_blank"}
+* preinstalled on most GNU/Linux distributions
+
+
+
+```{{sh}}
+# minimum prerequisit configuration
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
+
+### GitHub
+
+* create a [GitHub Account](https://github.com){target="_blank"}
+* ssh?
+
+    
+
+

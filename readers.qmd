@@ -1,0 +1,30 @@
+## The official GitHub Documentation Wiki
+
+[https://docs.github.com/en](https://docs.github.com/en)
+
+Notable pages: 
+
+  * [Get Started](https://docs.github.com/en/get-started)
+  * [About Git](https://docs.github.com/en/get-started/using-git/about-git)
+  * [SSH Authentification](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+
+## Collaboration with git and GitHub
+
+There are excellent workshop resources by the [US National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/) on how to use git, GitHub and RStudio for collaborative research: [https://pages.github.nceas.ucsb.edu/lter/github-workshop/index.html](https://pages.github.nceas.ucsb.edu/lter/github-workshop/index.html)
+
+They also go through the basic git concept, but also tackle more collaboration specific topics like [merge conflicts](https://pages.github.nceas.ucsb.edu/lter/github-workshop/appendix-a-merge-conflicts.html#what-is-a-merge-conflict) and [forks](https://pages.github.nceas.ucsb.edu/lter/github-workshop/appendix-c-forks.html#what-is-a-fork).
+
+
+```{r}
+#| fig-link: https://pages.github.nceas.ucsb.edu/lter/github-workshop/index.html
+#| fig-cap: "Using GitHub and RStudio as a collaborative tool needs some considerations and practice to prevent merge conflicts."
+#| echo: false
+
+knitr::include_graphics("https://pages.github.nceas.ucsb.edu/lter/github-workshop/images/git-conflict-cause.png")
+```
+
+
+
+
+
